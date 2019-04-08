@@ -1,4 +1,5 @@
 /* Universal */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 h1,
 h2,
 h3,
@@ -14,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Sniglet", serif;
+  font-family: 'Raleway', sans-serif;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -43,7 +44,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
   justify-content: space-around;
 }
 
@@ -51,8 +51,9 @@ body {
   display: flex;
   position: relative;
   justify-content: center;
-  height: 120px;
-  background-color: #e60f0d
+  height: 140px;
+  background-color: #e60f0d;
+  margin-bottom: 20px;
 }
 
 #logo {
@@ -70,10 +71,9 @@ body {
   font-size: 20px;
   line-height: 1.5;
   flex-direction: column;
-  background: linear-gradient(to right,#e60f0d 60%,#FF3F28 90%,#e60f0d 75%);
-  border-radius: 4px;
+  background: linear-gradient(to right,#e60f0d 80%,#ff0d0a 140%);
   position: relative;
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  box-shadow: 3px 4px 3px 1px rgba(0,0,0,0.2), 0px 0px 1px 0px rgba(0,0,0,0.10), 0px 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .CardFloorContainer {
@@ -109,7 +109,7 @@ body {
 
   padding-top: 10px;
   padding-bottom: 10px;
-  
+  align-items: center;
   word-wrap: break-word;
 }
 
@@ -130,8 +130,10 @@ body {
 }
 
 #etgH {
-  color: #00A5A5;
+  color: #FFFFFF;
   margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 2em;
 }
 
 #leftValue1 {
@@ -149,5 +151,5 @@ body {
   position: absolute;
   margin-right: 20px;
   right: 0;
-  font-style: oblique;
+  font-size: 1.8em;
 }
